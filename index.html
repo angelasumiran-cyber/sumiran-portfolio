@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <img src="angela.jpg" alt="Profile" class="profile-pic">
+    <h1>Angela Sumiran</h1>
+    <p>Student | Working Student </p>
+    <div class="social-media">
+      <a href="https://www.facebook.com/angela.sumiran.2024" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/aglsmrn_" target="_blank">Instagram</a>
+      <a href="https://github.com/angelasumiran-cyber/angela-portfolio.git" target="_blank">GitHub</a>
+    </div>
+  </header>
+
+  <main>
+    <nav class="nav">
+      <button onclick="showSection('quiz')">Quizzes</button>
+      <button onclick="showSection('assignment')">Assignments</button>
+      <button onclick="showSection('activity')">Activities</button>
+      <button onclick="showSection('exam')">Exams</button>
+    </nav>
+
+    <section id="quiz" class="content-section">
+      <h2>Quizzes</h2>
+    </section>
+    <section id="assignment" class="content-section" style="display: none;">
+      <h2>Assignments</h2>
+    </section>
+    <section id="activity" class="content-section" style="display: none;">
+      <h2>Activities</h2>
+    </section>
+    <section id="exam" class="content-section" style="display: none;">
+      <h2>Exams</h2>
+
+    </section>
+  </main>
+
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
